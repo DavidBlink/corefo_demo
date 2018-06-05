@@ -454,6 +454,7 @@
 	.content_type_clase_corefo_demo .publisher-navbar li:hover {
 		background-color: #783cbd;
 		opacity: 1;
+		color: #ffffff;
 	}
 	.content_type_clase_corefo_demo .publisher-navbar #top-navigator,
 	.content_type_clase_corefo_demo .publisher-navbar .dropdown {
