@@ -326,6 +326,7 @@
 		background: #ddd;
 		width: 100%;
 		left: 0;
+		padding-left: 25%;
 		height: 58px;
 		box-shadow: rgba(0, 0, 0, 0.3) 0px 0 9px;
 	}
@@ -451,7 +452,7 @@
 
 	.content_type_clase_corefo_demo .slider-indicators li.active,
 	.content_type_clase_corefo_demo .publisher-navbar li:hover {
-		background-color: transparent;
+		background-color: #783cbd;
 		opacity: 1;
 	}
 	.content_type_clase_corefo_demo .publisher-navbar #top-navigator,
