@@ -304,9 +304,9 @@
 
 	.slider-indicators li,
 	.edit .slider-indicators li {
-		background-color: #ffca04;
+		background-color: #fff;
 		color: #ffffff ;
-		opacity: 0.5;
+		opacity: 1;
 	}
 
 	.slider-indicators .active,
@@ -323,7 +323,7 @@
 	.content_type_clase_corefo_demo .publisher-navbar {
 		position: fixed;
 		top: 44px;
-		background: #ffffff;
+		background: #ddd;
 		width: 100%;
 		left: 0;
 		height: 58px;
@@ -390,7 +390,7 @@
 
 	.content_type_clase_corefo_demo .publisher-navbar .dropdown,
 	.content_type_clase_corefo_demo .publisher-navbar #top-navigator .slider-indicators {
-		background: #FFCA04;
+		background: #ddd;
 	}
 	.content_type_clase_corefo_demo .publisher-navbar .dropdown {
 		border-radius: 120px 0 0 120px;
@@ -465,6 +465,7 @@
 	.content_type_clase_corefo_demo .publisher-navbar .dropdown button {
 		width: auto;
 		padding: 0px 10px;
+		display: none;
 	}
 
 	.open > .dropdown-menu {
@@ -475,6 +476,7 @@
 
 	.content_type_clase_corefo_demo .publisher-navbar .dropdown button {
 		border: none;
+		display: none;
 	}
 
 	.content_type_clase_corefo_demo .publisher-navbar .dropdown button:focus {
