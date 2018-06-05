@@ -500,16 +500,18 @@
 
 .js-slide-wrapper > .header .single-pagination {
 	position: absolute;
-	right: 85px;
-	top: 0;
-	width: 95px;
-	background: #0095DA;
-	color: #ffffff;
-	font-size: 5.0rem;
-	line-height: 5.0rem;
-	padding: 75px 10px 10px;
-	font-family: 'Averia Serif Libre', Georgia, serif;
-	text-align: center;
+    right: 70px;
+    top: 0;
+    width: 95px;
+    background: #783cbd;
+    color: #783cbd;
+    -webkit-border-radius: 0 0 15px 15px;
+    border-radius: 0 0 20px 20px;
+    font-size: 5rem;
+    line-height: 5.0rem;
+    padding: 55px 10px 10px;
+    font-family: 'Averia Serif Libre', Georgia, serif;
+    text-align: center;
 }
 
 /* Iconos */
