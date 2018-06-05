@@ -538,6 +538,31 @@
 	display: none;
 }
 
+
+
+
+/*lista general*/
+
+#actividad .content .texto_curso .bck-ol li,
+#actividad .popover-content .bck-ol li,
+#actividad .content .workspace ul li .bck-ol li {
+    list-style-type: none;
+    counter-increment: bck-li-counter 1;
+    position: relative;
+}
+
+#actividad .content .cke_contents .bck-ol li:before,
+#actividad .content .texto_curso .bck-ol li:before,
+#actividad .popover-content .bck-ol li:before,
+#actividad .content .workspace ul li .bck-ol li:before {
+	content: counter(bck-li-counter);
+    position: relative;
+    text-align: center;
+    font-size: 1.9rem;
+    font-family: sans-serif;
+    margin-left: -10px;
+}
+
 /*Lista ordenada 1*/
 #actividad .content .cke_contents .bck-ol-1,
 #actividad .content .texto_curso .bck-ol-1,
