@@ -547,6 +547,7 @@
 
 /*lista general*/
 
+#actividad .content .cke_contents .bck-ol li,
 #actividad .content .texto_curso .bck-ol li,
 #actividad .popover-content .bck-ol li,
 #actividad .content .workspace ul li .bck-ol li {
@@ -591,7 +592,7 @@
 #actividad .content .texto_curso .bck-ol-1 li:before,
 #actividad .popover-content .bck-ol-1 li:before,
 #actividad .content .workspace ul li .bck-ol-1 li:before {
-	content: counter(bck-li-counter);
+    content: counter(bck-li-counter);
     width: 30px;
     height: 30px;
     position: absolute;
