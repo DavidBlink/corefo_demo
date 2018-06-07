@@ -17,10 +17,6 @@
   src: url("fuentes/Gotham-Medium.otf");
 }
 
-@font-face {
-  font-family: "BuloRounded-Bold";
-  src: url("fuentes/BuloRounded-Bold.otf");
-}
 
 	.body_clase:not(.edit) .content-wrapper {
 		padding-top: 100px;
