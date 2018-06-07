@@ -2,6 +2,26 @@
 
 @import url(https://fonts.googleapis.com/css?family=Averia+Serif+Libre:400,400italic);
 
+@font-face {
+  font-family: "BuloRounded-Bold";
+  src: url("fuentes/BuloRounded-Bold.otf");
+}
+
+@font-face {
+  font-family: "Gotham-Book";
+  src: url("fuentes/Gotham-Book.otf");
+}
+
+@font-face {
+  font-family: "Gotham-Medium";
+  src: url("fuentes/Gotham-Medium.otf");
+}
+
+@font-face {
+  font-family: "BuloRounded-Bold";
+  src: url("fuentes/BuloRounded-Bold.otf");
+}
+
 	.body_clase:not(.edit) .content-wrapper {
 		padding-top: 100px;
 		padding-bottom: 0;
@@ -285,6 +305,7 @@
     color: #783cbd;
     cursor: pointer;
     font-weight: 600;
+    font-family: "BuloRounded-Bold";
 	}
 
 /**/
@@ -586,6 +607,7 @@
 	z-index: 0;
 	font-weight: 700;
 	margin-left: 40px;
+	font-family: "Gotham-Book";
 }
 
 
@@ -605,7 +627,7 @@
     border-radius: 100%;
     text-align: center;
     font-size: 1.9rem;
-    font-family: sans-serif;
+    font-family: "Gotham-Medium";
     font-weight: normal;
     line-height: 30.5px;
 }
@@ -1148,6 +1170,7 @@ a:hover, a:active, a:focus {
 		font-size: 3.0rem;
 		padding-right: 20px;
 		margin-bottom: 20px;
+		font-family: "BuloRounded-Bold";
 	}
 
 }
