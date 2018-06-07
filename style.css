@@ -597,7 +597,7 @@
 #actividad .content .texto_curso .bck-ol-1 li,
 #actividad .popover-content .bck-ol-1 li,
 #actividad .content .workspace ul li .bck-ol-1 li {
-	counter-increment: bck-li-counter;
+	counter-increment: bck-li-counter ".";
 	padding-left: 0px;
 	position: relative;
 	z-index: 0;
