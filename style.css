@@ -6,7 +6,7 @@
 
 .single-pagination:before {
     content: " ";
-    background-image: url(images/logo_blanco.png);
+    background-image: url(/useruploads/r/a/93603420/activity_other_imported/logo_blanco.png);
     background-size: contain;
     background-repeat: no-repeat;
     height: 58px;
@@ -626,6 +626,7 @@
 	font-weight: 700;
 	margin-left: 40px;
 	font-family: "Gotham-Book";
+	padding-top: 10px;
 }
 
 
